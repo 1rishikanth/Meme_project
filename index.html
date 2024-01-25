@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memepage</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main">
+    <div class="fname">
+    <label for="FirstName">FirstName:</label>
+    <input type="textbox"  value="Enter your FirstName"><br><br>
+    </div>
+    <div class="lname">
+    <label for="LastName">LastName:</label>
+    <input type="textbox" value="Enter your LastName"><br><br>
+    </div>
+    <div class="Date">
+    <label for="DOB">Date Of Birth:</label><br></br>
+    <form action="/action_page.php">
+        <label for = "Birthday:"></label>
+        <input type="date" id="birthday " name="birthday">
+        </form><br>
+    </div>
+    <div class="age">
+    <label for="Age">Age:</label>
+    <input type="text" maxlength="3" size="16"><br><br>
+    <label for="Gender">Gender:</label>
+    <input type="radio"  name="request_type" value="male"> male
+    <input type="radio"  name="request_type" value="female"> female
+    <br><br>
+    </div>
+    <div class="mail">
+    <label for="Email">Email ID:</label>
+    <input type="Email ID"  value="Enter your Email ID"><br><br>
+    </div>
+    <button>Register</button>
+    </div>
+</body>
+</html>
